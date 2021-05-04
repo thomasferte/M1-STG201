@@ -140,7 +140,6 @@ ggsave("figure4.png",width=20,height=10)
 
     # _______________  _______________ #
 xyplot(lockdown1 + closedCafe + closedSchool + maskClosedPlaces + lockdown2 + curfew6pm ~ date | label_insee, data = data, type='l', lwd=2, groups = label_insee, main="Major NPI")
-  # comment faire pour regrouper les infos sur un même graphique ?
 
 gg5 <- 0
 print(gg5)
