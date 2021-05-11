@@ -1,0 +1,24 @@
+Package: appsimugolem
+Title: Simulation SEIRAH avec golem
+Version: 0.0.0.9000
+Authors@R: person('Clément', 'Bonnet', email = 'bonnetclement72@gmail.com', role = c('cre', 'aut'))
+Description: Simulation de courbes épidémiologiques avec une appli golem shiny.
+License: MIT + file LICENSE
+Imports: 
+    attempt,
+    config (>= 0.3.1),
+    deSolve,
+    DT,
+    glue,
+    golem (>= 0.3.1),
+    htmltools,
+    processx,
+    shiny (>= 1.6.0)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Suggests: 
+    spelling,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Language: en-US
